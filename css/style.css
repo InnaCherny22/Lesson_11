@@ -1,0 +1,43 @@
+.wrapper {
+	position: relative;
+	overflow: hidden;
+	min-height: 100%;
+	padding: 30px;
+}
+.page {
+	background: url(../img/road_.jpg) no-repeat center center fixed;
+	}
+.page__background {
+	max-width: 100%;
+}
+.page__car {
+	position: fixed;
+	bottom: 100px;
+	left: 300px;
+	z-index: 2;
+}
+.page__girl {
+position: relative;
+left: 450px;
+z-index: 0;
+}
+.page__wood {
+	position: absolute;
+	left: 52%;
+	bottom: 70px;
+	z-index: 3;
+}
+.page__lightnings {
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+	
+}
+.page:hover .page__lightnings {
+position: fixed;
+visibility: visible;
+opacity: 1;
+bottom: 170px;
+left: 220px;
+z-index: 1;
+}
